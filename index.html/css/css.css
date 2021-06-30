@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}/*去下划线*/
+	body{font-family: "方正粗黑宋简体";
+	font-size: 13px;
+	background: fixed url(  ../img/backgroud.jpg);/*主体属性*/
+	background-size:cover;
+	background-attachment: fixed;
+	background-color:rgba(185,241,249,0.80);
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;}
+	nav{font-family: "方正粗黑宋简体";
+	height: 100px;
+	line-height: 50px;/*导航属性*/
+	text-align: center;
+	margin-left: 1100px;}
+	a{color:rgba(49,49,49,1.00);
+	padding:15px;
+	font-size:10px;/*链接属性*/
+	font-weight: bold;
+	text-decoration: none}
+tr td a:hover, tr td a.active{font-size: 16px;color:rgba(60,157,183,1.00);}/*导航当前页及鼠标悬停属性*/
+		.footer{margin-bottom:0px;
+		color: aliceblue;}
+		aside{width: 61.8%;
+		height: 100%;
+		background: rgba(185,241,249,0.80);/*右边框属性*/
+		float: right}
+		section{width: 38.2%;
+		background: #AEEEEA;/*左边框属性*/
+		float: left}
+		.tb{background-color:rgba(185,241,249,0.80)}
+		.title{font-family:"方正粗黑宋简体";
+		font-size: 35px;
+		color:ghostwhite}
